@@ -3,7 +3,8 @@ package main
 import "fmt" // fmt = format
 
 func main(){
-	fmt.Println("Hello on Go in Ramadan!");
+	a := 1 // variable
+	fmt.Println("Hello on Go in", a,"st Ramadan!");
 }
 
 
