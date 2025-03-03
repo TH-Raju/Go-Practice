@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+import "fmt" // fmt = format
 
 func main(){
 	fmt.Println("Hello on Go in Ramadan!");
