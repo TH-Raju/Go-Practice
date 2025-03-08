@@ -14,7 +14,14 @@ func getNumbers(num1 int, num2 int) (int, int, int) {
 	div := num1 / num2
 
 	return sum, mul, div
+}
 
+func printSomewhere(){
+	fmt.Println("Education must be free")
+}
+
+func sayHello(name string) {
+	fmt.Println("Welcome to the golang ", name)
 }
 
 func main(){
@@ -28,7 +35,10 @@ func main(){
 	summation := add(a, b)
 
 	fmt.Println("Sum with function: ", summation)
+	printSomewhere()
+
+	sayHello("Raju")
 
 	p, q, r := getNumbers(a, b)
-	fmt.Println("p: ", p, " q: ", q, " r: ", r)
+	fmt.Println("p: ", p, " q: ", q, "r: ", r)
 }
