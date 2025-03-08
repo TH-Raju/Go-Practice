@@ -8,11 +8,12 @@ func add(num1 int, num2 int) int{
 	return sum
 }
 
-func getNumbers(num1 int, num2 int) (int, int) {
+func getNumbers(num1 int, num2 int) (int, int, int) {
 	sum := num1 + num2
 	mul := num1 * num2
+	div := num1 / num2
 
-	return sum, mul
+	return sum, mul, div
 
 }
 
@@ -28,6 +29,6 @@ func main(){
 
 	fmt.Println("Sum with function: ", summation)
 
-	p, q := getNumbers(a, b)
-	fmt.Println("p: ", p, " q: ", q)
+	p, q, r := getNumbers(a, b)
+	fmt.Println("p: ", p, " q: ", q, " r: ", r)
 }
