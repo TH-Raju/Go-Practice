@@ -24,10 +24,17 @@ func sayHello(name string) {
 	fmt.Println("Welcome to the golang ", name)
 }
 
+func printRet(ag int) int{
+	fmt.Println("Your age is ", ag)
+	return ag 
+}
+
 func main(){
 
 	a := 10
 	b := 20
+	age := printRet(25)
+	fmt.Println("Your age is returned: ", age)
 
 	sum := a + b
 
