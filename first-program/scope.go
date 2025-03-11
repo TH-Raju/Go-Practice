@@ -6,10 +6,10 @@ var (
 )
 
 /*
-	There are 3 types Scope
+	There are 3 types of Scope
 	1. Global Scope
 	2. Local Scope
-	3. Block Scope
+	3. Package Scope
 */
 
 func add(x int, y int){
