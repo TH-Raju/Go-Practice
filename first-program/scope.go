@@ -5,6 +5,13 @@ var (
 	b = 30
 )
 
+/*
+	There are 3 types Scope
+	1. Global Scope
+	2. Local Scope
+	3. Block Scope
+*/
+
 func add(x int, y int){
 	z := x + y
 	fmt.Println(z)
@@ -20,4 +27,8 @@ func main(){
 	add(a, b)
 
 	add(a, p)
+
+	if p == 30{
+		fmt.Println("p is ", p)
+	}
 }
