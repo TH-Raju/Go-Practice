@@ -18,7 +18,7 @@ func add(x int, y int){
 }
 
 func main(){
-	fmt.Println("Hello, Raju")
+	fmt.Println("Hello, Scope")
 	p := 30
 	q := 40
 
@@ -31,4 +31,6 @@ func main(){
 	if p == 30{
 		fmt.Println("p is ", a)
 	}
+
+	switch
 }
