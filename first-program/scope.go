@@ -29,6 +29,6 @@ func main(){
 	add(a, p)
 
 	if p == 30{
-		fmt.Println("p is ", p)
+		fmt.Println("p is ", a)
 	}
 }
