@@ -1,12 +1,14 @@
 package main
-import "fmt"
-
-
-
+import ("fmt" 
+"example.com/mathlib")
 
 func main(){
 	fmt.Println("Learn Package Scope!!")
-	add(2,3)
+	mathlib.Add(4,6)
 
 	
 }
+
+
+
+
