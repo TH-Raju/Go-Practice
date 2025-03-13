@@ -9,6 +9,6 @@ func main(){
 	
 }
 
-
+// go mod init example.com  
 
 
