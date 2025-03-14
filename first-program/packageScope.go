@@ -5,8 +5,6 @@ import ("fmt"
 func main(){
 	fmt.Println("Learn Package Scope!!")
 	mathlib.Add(4,6)
-
-	
 }
 
 // go mod init example.com  
