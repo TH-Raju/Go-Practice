@@ -12,9 +12,13 @@ var (
 	3. Package Scope
 */
 
+func printNumber(num int){
+	fmt.Println("Number is: ", num)
+}
+
 func add(x int, y int){
 	z := x + y
-	fmt.Println(z)
+	printNumber(z)
 }
 
 func main(){
@@ -23,14 +27,11 @@ func main(){
 	q := 40
 
 	add(p, q)
-
 	add(a, b)
-
 	add(a, p)
 
 	if p == 30{
 		fmt.Println("p is ", a)
 	}
 
-	switch
 }
