@@ -2,9 +2,14 @@ package main
 import "fmt"
 
 func main(){
-	var name string
-	fmt.Print("Enter your name: ")
-	fmt.Scan(&name)
+	// var name string
+	// fmt.Print("Enter your name: ")
+	// fmt.Scan(&name)
 
-	fmt.Println("Hello, ", name)
+	// fmt.Println("Hello, ", name)
+
+}
+
+func init(){
+	fmt.Println("I am the first function that execute first...")
 }
