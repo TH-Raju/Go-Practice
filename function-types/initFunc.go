@@ -10,7 +10,7 @@ func main(){
 
 	// fmt.Println("Hello, ", name)
 
-	fmt.Println("Hello start Init Function")
+	fmt.Println("Hello at first start Init Function then main function called...")
 	fmt.Println(a)
 
 }
