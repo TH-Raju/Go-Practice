@@ -5,6 +5,7 @@ var score int
 
 func question( ques string, correctAns int) {
 	var userAns int
+	fmt.Println(ques)
 	fmt.Print("Write Answer:")
 	fmt.Scan(&userAns)
 
@@ -35,12 +36,10 @@ func main(){
 		question("4 * 4 = ? ", 16)
 		question("In binary 1 + 1 = ? ", 10)
 		
-
-		fmt.Println("Your Score : ", score)
-	}else {
-		fmt.Println("Okay, Quiz is over!")
-        return
 	}
+	fmt.Println("Okay, Quiz is over!")
+	fmt.Println("Your Score : ", score)
+      
 
 
 
