@@ -3,7 +3,7 @@ import "fmt"
 
 var score int
 
-func question( ques string, correctAns int) {
+func intQuestion( ques string, correctAns int) {
 	var userAns int
 	fmt.Println(ques)
 	fmt.Print("Write Answer:")
@@ -32,9 +32,9 @@ func main(){
 	if(ans == "Y" || ans == "y"){
 		fmt.Println("Let's begin the quiz!")
 
-		question("1 + 1 = ? ", 2)
-		question("4 * 4 = ? ", 16)
-		question("In binary 1 + 1 = ? ", 10)
+		intQuestion("1 + 1 = ? ", 2)
+		intQuestion("4 * 4 = ? ", 16)
+		intQuestion("In binary 1 + 1 = ? ", 10)
 		
 	}
 	fmt.Println("Okay, Quiz is over!")
