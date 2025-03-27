@@ -18,14 +18,18 @@ func intQuestion( ques string, correctAns int) {
 
 }
 
-func main(){
+func intro(){
 	var name string
-	var ans string
-	
 	fmt.Println("Hello!!")
 	fmt.Print("May I know your name? : ")
 	fmt.Scan(&name)
 	fmt.Println("Hello!", name, "Are you ready to start the Quiz......!!!")
+}
+
+func main(){
+	var ans string
+	
+	intro()
 	fmt.Print("Enter (Y) for yes and (N) for no: ")
 	fmt.Scan(&ans)
 
