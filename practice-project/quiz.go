@@ -42,9 +42,10 @@ func main(){
 		
 	}
 	fmt.Println("Okay, Quiz is over!")
-	fmt.Println("Your Score : ", score)
+	fmt.Println("Your Score : ", score ,"\n\n")
+
+
+	fmt.Println("Thanks for your time")
       
-
-
 
 }
