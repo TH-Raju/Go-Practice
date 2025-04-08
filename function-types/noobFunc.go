@@ -3,6 +3,7 @@ import "fmt"
 
 
 func main(){
+	add(3,7)
 	add := func(a int, b int){
 		c := a+b
 		fmt.Println(c)
@@ -13,4 +14,4 @@ func main(){
 
 func init(){
 	fmt.Println("I'll be call first")
-}
+} 
