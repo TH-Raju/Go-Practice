@@ -8,7 +8,6 @@ func main(){
 		c := a+b
 		fmt.Println(c)
 	}
-
 	add(2,3)
 }
 
