@@ -11,7 +11,7 @@ func add(a, b int) {
 }
 
 func main() {
-	// we invoke the add function here
+	// We invoke the add function here
 	add(2, 4)
 
 	// anonymous function
