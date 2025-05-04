@@ -53,7 +53,7 @@ func main(){
 	fmt.Print("Enter (Y) for yes and (N) for no: ")
 	fmt.Scan(&ans)
 
-	if(ans == "Y" || ans == "y"){
+	if(strings.ToLower(ans) == "y"){
 		fmt.Println("Let's begin the quiz!")
 
 		// Integer based question
