@@ -1,5 +1,6 @@
 package main
-import "fmt"
+import ("fmt"
+"strings")
 
 var score int
 
@@ -17,6 +18,22 @@ func intQuestion( ques string, correctAns int) {
 	}
 
 }
+
+func stringQuestion(ques string, correctAns int){
+	var userAns int
+	fmt.Println(ques)
+	fmt.Print("Write Answer: ")
+	fmt.Scan(&userAns)
+
+	if userAns == correctAns {
+		score++
+		fmt.Println("Correct Answer!")
+	}else{
+		fmt.Println("Wrong Answer!!")
+	}
+}
+
+
 
 func intro(){
 	var name string
