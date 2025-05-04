@@ -19,13 +19,13 @@ func intQuestion( ques string, correctAns int) {
 
 }
 
-func stringQuestion(ques string, correctAns int){
-	var userAns int
+func textQuestion(ques string, correctAns string){
+	var userAns string
 	fmt.Println(ques)
 	fmt.Print("Write Answer: ")
 	fmt.Scan(&userAns)
 
-	if userAns == correctAns {
+	if strings.ToLower(userAns) == strings.ToLower(correctAns) {
 		score++
 		fmt.Println("Correct Answer!")
 	}else{
