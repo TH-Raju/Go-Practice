@@ -3,8 +3,10 @@ import ("fmt"
 "strings")
 
 var score int
+var quesNo int
 
 func intQuestion( ques string, correctAns int) {
+	quesNo++
 	var userAns int
 	fmt.Println(ques)
 	fmt.Print("Write Answer:")
@@ -20,6 +22,7 @@ func intQuestion( ques string, correctAns int) {
 }
 
 func textQuestion(ques string, correctAns string){
+	quesNo++
 	var userAns string
 	fmt.Println(ques)
 	fmt.Print("Write Answer: ")
@@ -62,7 +65,7 @@ func main(){
 		textQuestion("What is the capital of Bangladesh? ", "dhaka")
 	}
 	fmt.Println("Okay, Quiz is over!")
-	fmt.Println("Your Score : ", score ,"\n\n")
+	fmt.Println("Your Score : ", score, "/", quesNo ,"\n\n")
 
 
 	fmt.Println("Thanks for your time")
