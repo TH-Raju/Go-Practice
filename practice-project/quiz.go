@@ -53,10 +53,13 @@ func main(){
 	if(ans == "Y" || ans == "y"){
 		fmt.Println("Let's begin the quiz!")
 
+		// Integer based question
 		intQuestion("1 + 1 = ? ", 2)
 		intQuestion("4 * 4 = ? ", 16)
 		intQuestion("In binary 1 + 1 = ? ", 10)
 		
+		// Text based question
+		textQuestion("What is the capital of Bangladesh? ", "dhaka")
 	}
 	fmt.Println("Okay, Quiz is over!")
 	fmt.Println("Your Score : ", score ,"\n\n")
