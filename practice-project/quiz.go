@@ -56,12 +56,12 @@ func main(){
 	if(strings.ToLower(ans) == "y"){
 		fmt.Println("Let's begin the quiz!")
 
-		// Integer based question
+		// Integer based questions
 		intQuestion("1 + 1 = ? ", 2)
 		intQuestion("4 * 4 = ? ", 16)
 		intQuestion("In binary 1 + 1 = ? ", 10)
 		
-		// Text based question
+		// Text based questions
 		textQuestion("What is the capital of Bangladesh? ", "dhaka")
 		textQuestion("Who is creator ", "Allah")
 	}
