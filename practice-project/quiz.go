@@ -64,6 +64,7 @@ func main(){
 		// Text based questions
 		textQuestion("What is the capital of Bangladesh? ", "dhaka")
 		textQuestion("Who is creator ", "Allah")
+		textQuestion("Which Programming language use here? ", "Go")
 	}
 	fmt.Println("Okay, Quiz is over!")
 	fmt.Println("Your Score : ", score, "/", quesNo ,"\n\n")
