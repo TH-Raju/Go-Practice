@@ -60,6 +60,7 @@ func main(){
 		intQuestion("1 + 1 = ? ", 2)
 		intQuestion("4 * 4 = ? ", 16)
 		intQuestion("In binary 1 + 1 = ? ", 10)
+		intQuestion("77 + 77 = ? ", 154)
 		
 		// Text based questions
 		textQuestion("What is the capital of Bangladesh? ", "dhaka")
