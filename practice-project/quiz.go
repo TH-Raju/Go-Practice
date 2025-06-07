@@ -62,6 +62,7 @@ func main(){
 		intQuestion("In binary 1 + 1 = ? ", 10)
 		intQuestion("77 + 77 = ? ", 154)
 		intQuestion("99 - 1 = ? ", 98)
+		intQuestion("11 x 22 = ? ", 242)
 		
 		// Text based questions
 		textQuestion("What is the capital of Bangladesh? ", "dhaka")
