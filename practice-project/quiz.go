@@ -36,8 +36,6 @@ func textQuestion(ques string, correctAns string){
 	}
 }
 
-
-
 func intro(){
 	var name string
 	fmt.Println("Hello!!")
